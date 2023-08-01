@@ -22,4 +22,4 @@ I recieved help with the function to display saved events in each time block fro
 
 
 ## License
-MIT License
+N/A
