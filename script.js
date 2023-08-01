@@ -4,6 +4,7 @@ $(function () {
   var timeBlocks = $('#time-blocks').children();
   timeBlocks.on("click",".saveBtn", function(){
     localStorage.setItem($(this).parent().attr("id"), $(this).parent().children().eq(1).val());
+    $("header").append('<p>✨Event saved to local storage✨</p>')
   } )
 //Saves new events typed in by users to local storage
   var currentTime = dayjs().format('HHA'); 
